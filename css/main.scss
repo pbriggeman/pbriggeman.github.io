@@ -26,7 +26,7 @@ $content-width:    800px;
 $on-palm:          600px;
 $on-laptop:        800px;
 
-$content-text-align:            justify;
+// $content-text-align:            justify;
 
 // Minima also includes a mixin for defining media queries.
 // Use media queries like this:
@@ -39,4 +39,4 @@ $content-text-align:            justify;
 
 // Import partials from the `minima` theme.
 @import "minima";
-@import "content";
+// @import "content";
