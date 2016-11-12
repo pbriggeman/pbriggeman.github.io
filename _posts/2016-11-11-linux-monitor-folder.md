@@ -10,9 +10,7 @@ How many times have you wanted to monitor a folder and if there were any changes
 {:.content-main-justify}
 The instructions that follow assume that you are working on a Debian-based Linux distro such Debian, Ubuntu, Mint, or Elementary (based on Ubuntu 16.04).
 
-<br />
-{:.section-header}
-Installation
+## Installation
 
 {:.content-main-justify}
 To get started let's install "inotify-tools":
@@ -36,7 +34,7 @@ inotifywait -m -q -e create -r --format '%:e %w%f' $folder | while read file
   done
 {% endhighlight %}
 
-<br />
+## Create the service
 
 {:.content-main-justify}
 Now this is the tricky part, if our script stops running for whatever reason or to have the script run across reboots, we need to create a service to do so: <code>nano /etc/usystemd/system/monitor.service</code>:
@@ -74,7 +72,7 @@ sudo systemctl restart monitor
 sudo systemctl status monitor
 {% endhighlight %}
 
-<br />
+## Possible issues
 
 {:.content-main-justify}
 There exists the possibility that your system may reach its limit of inotify watches:
