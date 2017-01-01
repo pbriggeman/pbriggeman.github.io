@@ -29,8 +29,6 @@ $on-laptop:        800px;
 
 // custom css
 $content-text-align:            justify;
-// $section-header:                justify;
-
 
 // Minima also includes a mixin for defining media queries.
 // Use media queries like this:
@@ -42,5 +40,5 @@ $content-text-align:            justify;
 // }a
 
 // Import partials from the `minima` theme.
-//@import "minima";
+@import "minima";
 @import "content";
