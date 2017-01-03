@@ -26,3 +26,6 @@ facebook_username:  pbriggeman
 # Build settings
 markdown: kramdown
 theme: minima
+
+# Google services
+google_analytics: UA—89669668-1
