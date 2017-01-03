@@ -5,7 +5,7 @@ date:   2016-12-21 00:00:00 +0000
 categories: progressive web app angular 2 bootstrap
 ---
 {:.content-main-justify}
-How many times have you wanted to monitor a folder and if there were any changes to that folder you would want to have a desktop notification?  We are so used to notifications on our devices that we would expect this to be a simple task to do on any given operating system.  Sadly, there is no easy way to do this without a lot of extra scaffolding to make the task easier, but luckily we're getting closer to that objective.
+Prrogressive web applications (PWAs) are bcoming more popular
 
 {:.content-main-justify}
 The instructions that follow assume that you are working on a Debian-based Linux distro such Debian, Ubuntu, Mint, or Elementary (based on Ubuntu 16.04).
