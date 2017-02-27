@@ -4,4 +4,4 @@ title: About
 permalink: /about/
 ---
 
-Howdy!  My name is Peter Briggeman, I started this blog to demnstrate some of the technical implementations I've had to use over the years and hopefully you will find these interesting and/or useful.
+I've started this modest blog in the hopes that I can help other developers find easier means to produce quality code quicker and easier than ever before with the most current tools and systems available on the open-source market.
